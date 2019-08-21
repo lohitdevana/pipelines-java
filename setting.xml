@@ -1,0 +1,22 @@
+<settings>
+  
+  <server>
+
+  <username>v-lodeva</username>
+  <!-- Treat this auth token like a password. Do not share it with anyone, including Microsoft support. -->
+  <!-- The generated token expires on or before 11/19/2019 -->
+  <password>xmqcy63uxaea6vxflcvp6f67uua5x3uf33fvekuhagzrjym67n5q</password>
+    </server>
+        <id>dev-azure-com-v-lodeva-v-lodeva</id>
+      <configuration>
+        <httpHeaders>
+          <property>
+            <name>Authorization</name>
+            <!--The generated token expires on or before 7/19/2017-->
+            <value>Basic Y2Fqb...</value>
+          </property>
+        </httpHeaders>
+      </configuration>
+    </server>
+  </servers>
+</settings>
