@@ -20,11 +20,3 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-# Maven
-# Download secure file
-# Download a secure file to the agent machine
-- task: DownloadSecureFile@1
-  name: mySecureFile 
-  #The name with which to reference the secure file's path on the agent, like $(mySecureFile.secureFilePath)
-  inputs:
-    secureFile: 'maven build'# The file name or GUID of the secure fil
